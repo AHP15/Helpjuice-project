@@ -71,12 +71,12 @@ form.addEventListener('submit', (e) => {
   // added it the dom
   titles.insertAdjacentHTML('beforeend', `<h1>${heading.value}</h1>`);
   
+  // store in localStorage
+  const old = JSON.parse(localStorage.getItem('headings')) ?? [];
+  localStorage.setItem('headings', JSON.stringify([...old, heading.value]));
+  
   // change the input UI
   heading.value = '';
   heading.setAttribute('placeholder', 'Type / for blocks, @ to links docs or people')
   heading.classList.remove('heading');
-
-  // store in localStorage
-  const old = JSON.parse(localStorage.getItem('headings')) ?? [];
-  localStorage.setItem('headings', JSON.stringify([...old, heading.value]));
 });
