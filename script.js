@@ -79,4 +79,6 @@ form.addEventListener('submit', (e) => {
   heading.value = '';
   heading.setAttribute('placeholder', 'Type / for blocks, @ to links docs or people')
   heading.classList.remove('heading');
+
 });
+
