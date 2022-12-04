@@ -4,7 +4,7 @@ The goal of this project is to allow users to create H1 text simply by typing / 
 
 ## Live Demo
 
-[Ckeck the live here](https://abdessittir.github.io/)
+[Ckeck the live here](https://abdessittir.github.io/Helpjuice-project/)
 
 ## Buit with
 
@@ -34,5 +34,4 @@ Thanks to Microverse for making this happen.
 
 ## 📝 License
 
-This project is [MIT](https://github.com/Abdessittir/Helpjuice-project)
-/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/Abdessittir/Helpjuice-project/blob/main/LICENSE) licensed.
