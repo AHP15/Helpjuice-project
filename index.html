@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="./script.js" type="module"></script>
+  <title>Helpjuice project</title>
+</head>
+<body>
+  <header class="container">
+    <h1 class="page-title">Front-end developer test project</h1>
+  </header>
+  <main class="container">
+    <p class="description">The goal of this project is to allow users to create H1 text simply by typing / then 1, then typing text, then hitting enter</p>
+
+    <div class="titles"></div>
+
+    <form>
+      <input
+        name="heading"
+        type="text"
+        placeholder="Type / for blocks, @ to links docs or people"
+        autofocus
+      />
+      <button hidden type="submit">submit</button>
+    </form>
+    <div class="filter-list">
+      <h3>Add blocks</h3>
+      <p class="desc">Keep typing to filter, or escape to exit</p>
+      <p class="desc keyword">Filtering keyword <span>1</span></p>
+      <div class="list"></div>
+    </div>
+  </main>
+</body>
+</html>
